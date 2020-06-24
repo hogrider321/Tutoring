@@ -11,16 +11,16 @@ public class Book {
 	// 2nd one has arguments name, author, price, qty
 
 	public Book(String title, Author author, double price) {
-		title = title;
-		author = author;
-		price = price;
+		this.title = title;
+		this.author = author;
+		this.price = price;
 	}
 
 	public Book(String title, Author author, double price, int qty) {
-		title = title;
-		author = author;
-		price = price;
-		qty = qty;
+		this.title = title;
+		this.author = author;
+		this.price = price;
+		this.qty = qty;
 	}
 
 	// Write getters for all the private instance variables
